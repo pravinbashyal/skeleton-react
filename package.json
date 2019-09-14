@@ -100,8 +100,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "precise-commits; lint-staged",
-      "pre-push": "yarn test"
+      "pre-commit": "precise-commits; lint-staged"
     }
   },
   "jest": {
