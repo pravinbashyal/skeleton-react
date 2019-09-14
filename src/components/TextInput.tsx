@@ -1,7 +1,7 @@
 import * as React from 'react'
-const cn = require('classnames')
+import * as cn from 'classnames'
 
-export interface ITextInputProps
+export interface TextInputProps
   extends React.DetailedHTMLProps<
     React.InputHTMLAttributes<HTMLInputElement>,
     HTMLInputElement
@@ -10,7 +10,7 @@ export interface ITextInputProps
   fullWidth?: boolean
 }
 
-export function TextInput(props: ITextInputProps) {
+export function TextInput(props: TextInputProps) {
   const { label: labelString, type, fullWidth, ...rest } = props
   return (
     <React.Fragment>

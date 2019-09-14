@@ -1,7 +1,7 @@
 import * as React from 'react'
 import './components/styles/Normalize.css'
 import './components/styles/skeleton.css'
-import { Button, LayoutContainer, Typography, TextInput } from './components'
+import { LayoutContainer, Button, Typography, TextInput } from './components'
 
 const App: React.FC<{}> = () => {
   return (
