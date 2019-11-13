@@ -106,7 +106,11 @@
     "printWidth": 80
   },
   "lint-staged": {
-    "*.{js,jsx,ts,tsx}": [
+    "*.{jsx,ts,tsx}": [
+      "eslint --fix",
+      "git add"
+    ],
+    "!(*config).js": [
       "eslint --fix",
       "git add"
     ]
